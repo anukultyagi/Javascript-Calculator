@@ -1,4 +1,4 @@
-let string = "";
+let string = "";  //create an empty string
 let buttons = document.querySelectorAll("button");
 Array.from(buttons).forEach((button) => {
     button.addEventListener('click', (e) => {
